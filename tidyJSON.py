@@ -1,8 +1,8 @@
-from enum import Enum
 import json
+from enum import Enum
 from json import JSONDecoder, load, loads
-from typing import Union, Dict, List, Any, Callable
 from pathlib import Path
+from typing import Any, Callable, Dict, List, Union
 
 from attrs import define, field
 
