@@ -479,6 +479,8 @@ class TidyJSON:
     --------
     Encoding a string:
     ```python
+    from TidyJSON import TidyJSON
+
     tidy = TidyJSON(json_input=my_json_string)
     decoded_string = tidy.decode
     ```
@@ -486,6 +488,8 @@ class TidyJSON:
     Encoding a file, and saving to a file (note, strings will be automatically
     converted to Path objects):
     ```python
+    from TidyJSON import TidyJSON
+
     my_json_file = "/path/to/my/json/file.json"
 
     my_new_encoded_save_location = "/path/to/my/new/save/location.json"
@@ -505,6 +509,8 @@ class TidyJSON:
     attribute:
 
     ```python
+    from TidyJSON import TidyJSON
+
     def foo(decoded_json):
         #do something with the decoded json
         pass
